@@ -5,7 +5,7 @@
 ## Contents
 
 1. [Highlights](#Highlights)
-2. [ResNet Primer](#ResNet)
+2. [SE ResNet Primer](#ResNet)
 3. [Requirements](#Requirements)
 4. [Usage](#Usage)
 5. [Results](#Results)
