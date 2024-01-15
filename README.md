@@ -68,10 +68,10 @@ number of parameter: 861818
 
 ## Citations
 ```bibtex
-@article{He2015,
-	author = {Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun},
-	title = {Deep Residual Learning for Image Recognition},
-	journal = {arXiv preprint arXiv:1512.03385},
-	year = {2015}
+@article{hu2018senet,
+  title={Squeeze-and-Excitation Networks},
+  author={Jie Hu and Li Shen and Gang Sun},
+  journal={IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2018}
 }
 ```
