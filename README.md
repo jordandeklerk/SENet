@@ -1,4 +1,4 @@
-# ResNet on CIFAR-10
+# SENet on CIFAR-10
 
 <hr>
 
