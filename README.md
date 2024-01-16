@@ -14,7 +14,7 @@
 <hr>
 
 ## Highlights
-This project is a implementation from scratch of a slightly modified version of the Squeeze and Excitation ResNet introduced in the paper [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507). We implement this model on the small scale benchmark dataset `CIFAR-10`. One of the goals of this project is to illustrate the speed gain of the ResNet model in comparison to the vision transformer models while maintaining comparable accuracy on `CIFAR-10` and other small-scale datasets. 
+This project is an implementation from scratch of a slightly modified version of the Squeeze and Excitation ResNet introduced in the paper [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507). We implement this model on the small scale benchmark dataset `CIFAR-10`. One of the goals of this project is to illustrate the speed gain of the ResNet model in comparison to the vision transformer models while maintaining comparable accuracy on `CIFAR-10` and other small-scale datasets. 
 
 <hr>
 
