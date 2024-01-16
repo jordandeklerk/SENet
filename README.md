@@ -5,7 +5,7 @@
 ## Contents
 
 1. [Highlights](#Highlights)
-2. [SE ResNet Primer](#ResNet)
+2. [SENet Primer](#ResNet)
 3. [Requirements](#Requirements)
 4. [Usage](#Usage)
 5. [Results](#Results)
@@ -19,7 +19,13 @@ This project is a implementation from scratch of a slightly modified version of 
 <hr>
 
 ## Squeeze and Excitation ResNet Primer
-Need to complete this
+The structure of the SE building block is depicted below. For any given transformation $\mathbf{F}_{t r}$ mapping the input $\mathbf{X}$ to the feature maps $\mathbf{U}$ where $\mathbf{U} \in \mathbb{R}^{H \times W \times C}$, e.g. a convolution, we can construct a corresponding SE block to perform feature recalibration. The features $\mathbf{U}$ are first passed through a squeeze operation, which produces a channel descriptor by aggregating feature maps across their spatial dimensions $(H \times W)$. The function of this descriptor is to produce an embedding of the global distribution of channel-wise feature responses, allowing information from the global receptive field of the network to be used by all its layers. The aggregation is followed by an excitation operation, which takes the form of a simple self-gating mechanism that takes the embedding as input and produces a collection of per-channel modulation weights. These weights are applied to the feature maps $\mathbf{U}$ to generate the output of the SE block which can be fed directly into subsequent layers of the network.
+
+<img src="./images/se1.png" width="550"></img>
+
+Below we illustrate the difference between a typical residual block in a resnet architecture and the residual block in the SENet architecture
+
+<img src="./images/se2.png" width="550"></img>
 
 <hr>
 
